@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'close',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json myflux@0.0.0 No description
+6 warn package.json myflux@0.0.0 No repository field.
+7 warn package.json myflux@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'close', null ]
+10 verbose cache add name=undefined spec="close" args=["close",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'close',
+11 verbose parsed url   path: 'close',
+11 verbose parsed url   href: 'close' }
+12 silly lockFile da38860c-close close
+13 verbose lock close C:\Users\nwilliams1\AppData\Roaming\npm-cache\da38860c-close.lock
+14 silly lockFile da38860c-close close
+15 silly lockFile da38860c-close close
+16 verbose addNamed [ 'close', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 62a094f6-close close@
+19 verbose lock close@ C:\Users\nwilliams1\AppData\Roaming\npm-cache\62a094f6-close.lock
+20 silly addNameRange { name: 'close', range: '*', hasData: false }
+21 verbose request where is /close
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 9386f5907a44ba49
+24 verbose url raw /close
+25 verbose url resolving [ 'https://registry.npmjs.org/', './close' ]
+26 verbose url resolved https://registry.npmjs.org/close
+27 verbose request where is https://registry.npmjs.org/close
+28 info trying registry request attempt 1 at 08:31:35
+29 http GET https://registry.npmjs.org/close
+30 http 200 https://registry.npmjs.org/close
+31 silly registry.get cb [ 200,
+31 silly registry.get   { date: 'Thu, 12 Mar 2015 23:01:35 GMT',
+31 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     etag: '"4-1121edcb017fbf3ae6ce6c27dc320e98"',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     'content-length': '381',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1426201295.663268,VS0,VE237',
+31 silly registry.get     'keep-alive': 'timeout=10, max=50',
+31 silly registry.get     connection: 'Keep-Alive' } ]
+32 silly addNameRange number 2 { name: 'close', range: '*', hasData: true }
+33 silly addNameRange versions [ 'close', [] ]
+34 error TypeError: Cannot read property 'latest' of undefined
+34 error     at next (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:219:35)
+34 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:207:5
+34 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+34 error     at Object.oncomplete (fs.js:107:15)
+35 error If you need help, you may report this *entire* log,
+35 error including the npm and node versions, at:
+35 error     <http://github.com/npm/npm/issues>
+36 error System Windows_NT 6.1.7601
+37 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "close" "--save"
+38 error cwd C:\xampp\htdocs\React\rdev
+39 error node -v v0.10.32
+40 error npm -v 1.4.28
+41 error type non_object_property_load
+42 verbose exit [ 1, true ]

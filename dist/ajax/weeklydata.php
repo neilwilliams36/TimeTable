@@ -1,0 +1,98 @@
+<?php
+$data = [
+
+    ["date"=>"2015-02-02" , "content"=> [
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA30111" , "unit"=>"NEC SBA App" , "campus"=>"Casuarina"],
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA30111" , "unit"=>"NEC SBA App" , "campus"=>"Casuarina"],
+        [  "person"=>"Mandy" , "room"=>"12.3.18" , "course"=>"ICA20111" , "unit"=>"ICAICT203A" , "campus"=>"Casuarina"],
+        [  "person"=>"David" , "room"=>"12.3.22" , "course"=>"ICA30111" , "unit"=>"ITE" , "campus"=>"Casuarina"],
+        [  "person"=>"Neil" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"SQL" , "campus"=>"Casuarina"],
+        [  "person"=>"David" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"WEB1" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-03" , "content"=> [
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA10111" , "unit"=>"ICAICT101A" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"Mandy" , "room"=>"12.3.18" , "course"=>"ICA20111" , "unit"=>"ICAICT203A" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"CISCO 1" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"CISCO 1" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-04" , "content"=> [
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA10111" , "unit"=>"ICAICT101A" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"Mandy" , "room"=>"12.3.18" , "course"=>"ICA20111" , "unit"=>"ICAICT203A" , "campus"=>"Casuarina"],
+        [  "person"=>"Kevin" , "room"=>"12.3.22" , "course"=>"ICA30111" , "unit"=>"ITE" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"CISCO 2" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"CISCO 2" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-05" , "content"=> [
+        [  "person"=>"Neil" , "room"=>"12.3.18" , "course"=>"ICA30111" , "unit"=>"PROG300" , "campus"=>"Casuarina"],
+        [  "person"=>"Mandy" , "room"=>"12.3.18" , "course"=>"ICA30111" , "unit"=>"BSBWHS304A" , "campus"=>"Casuarina"],
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA41011" , "unit"=>"Maths" , "campus"=>"Casuarina"],
+        [  "person"=>"Kevin" , "room"=>"12.3.22" , "course"=>"ICA30111" , "unit"=>"Apprentices" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA30111" , "unit"=>"Apprentices" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-06" , "content"=> [
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-9" , "content"=> [
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA30111" , "unit"=>"NEC SBA App" , "campus"=>"Casuarina"],
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA30111" , "unit"=>"NEC SBA App" , "campus"=>"Casuarina"],
+        [  "person"=>"Mandy" , "room"=>"12.3.18" , "course"=>"ICA20111" , "unit"=>"ICAICT203A" , "campus"=>"Casuarina"],
+        [  "person"=>"David" , "room"=>"12.3.22" , "course"=>"ICA30111" , "unit"=>"ITE" , "campus"=>"Casuarina"],
+        [  "person"=>"Neil" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"SQL" , "campus"=>"Casuarina"],
+        [  "person"=>"David" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"WEB1" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-10" , "content"=> [
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA10111" , "unit"=>"ICAICT101A" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"Mandy" , "room"=>"12.3.18" , "course"=>"ICA20111" , "unit"=>"ICAICT203A" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"CISCO 1" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"CISCO 1" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-11" , "content"=> [
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA10111" , "unit"=>"ICAICT101A" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"Mandy" , "room"=>"12.3.18" , "course"=>"ICA20111" , "unit"=>"ICAICT203A" , "campus"=>"Casuarina"],
+        [  "person"=>"Kevin" , "room"=>"12.3.22" , "course"=>"ICA30111" , "unit"=>"ITE" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"CISCO 2" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA41011" , "unit"=>"CISCO 2" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-12" , "content"=> [
+        [  "person"=>"Neil" , "room"=>"12.3.18" , "course"=>"ICA30111" , "unit"=>"PROG300" , "campus"=>"Casuarina"],
+        [  "person"=>"Mandy" , "room"=>"12.3.18" , "course"=>"ICA30111" , "unit"=>"BSBWHS304A" , "campus"=>"Casuarina"],
+        [  "person"=>"Ferdi" , "room"=>"12.3.18" , "course"=>"ICA41011" , "unit"=>"Maths" , "campus"=>"Casuarina"],
+        [  "person"=>"Kevin" , "room"=>"12.3.22" , "course"=>"ICA30111" , "unit"=>"Apprentices" , "campus"=>"Casuarina"],
+        [  "person"=>"Michael" , "room"=>"12.3.22" , "course"=>"ICA30111" , "unit"=>"Apprentices" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        ],
+    ],
+    ["date"=>"2015-02-13" , "content"=> [
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.18" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        [  "person"=>"" , "room"=>"12.3.22" , "course"=>"" , "unit"=>"" , "campus"=>"Casuarina"],
+        ],
+    ],
+];
+
+
+echo json_encode($data);
+exit();
